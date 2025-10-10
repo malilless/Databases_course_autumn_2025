@@ -1,3 +1,4 @@
+USE HW1;
 -- First of all, I created a CTE which will contain a table of all our 5 initial tables joined
 WITH artists_info AS(
 SELECT 
