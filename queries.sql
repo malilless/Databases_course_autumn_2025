@@ -32,7 +32,7 @@ SELECT
     ai.biggest_tour,
     ai.biggest_tour_revenue,
     ai.total_awards,
-    'Top_3_by_awards' AS category,
+    'Top_3_by_streams' AS category,
     (
 -- I'll be honest: I just needed to use a subquery, so I decided to check the average streams among all artists in the table:)
     SELECT AVG(total_streams) 
@@ -58,7 +58,7 @@ SELECT
     ai.biggest_tour,
     ai.biggest_tour_revenue,
     ai.total_awards,
-    'Top_3_by_streams' AS category,
+    'Top_3_by_awards' AS category,
 -- I put NULL here because I need both SELECTS to have the same structure to UNION them (and average streams have nothing to do with awards)
     NULL AS avg_streams 
 FROM artists_info ai
