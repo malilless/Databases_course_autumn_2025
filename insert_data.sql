@@ -1,3 +1,4 @@
+USE HW1;
 INSERT INTO artists VALUES
 (1, 'Taylor Swift', 'the USA'),
 (2, 'BTS', 'South Korea'),
