@@ -1,0 +1,25 @@
+DROP DATABASE IF EXISTS HW2;
+CREATE DATABASE HW2;
+USE HW2;
+
+DROP TABLE IF EXISTS students;
+CREATE TABLE students (
+id INT PRIMARY KEY,
+name VARCHAR(50),
+uni VARCHAR(50),
+specialty VARCHAR(50)
+);
+
+
+DROP TABLE IF EXISTS progress;
+CREATE TABLE progress (
+id INT PRIMARY KEY,
+GPA DECIMAL(5,2),
+best_completed_course VARCHAR(50)
+);
+
+DROP TABLE IF EXISTS school_medalists;
+CREATE TABLE school_medalists (
+id INT PRIMARY KEY,
+medalist VARCHAR(3)
+);
