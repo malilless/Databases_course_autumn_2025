@@ -2,6 +2,9 @@ USE HW2;
 CREATE INDEX idx_students_id ON students(id);
 CREATE INDEX idx_progress_gpa ON progress(GPA);
 CREATE INDEX idx_progress_best_completed_course ON progress(best_completed_course);
+
+-- EXPLAIN
+-- EXPLAIN ANALYZE
 WITH full_table AS (
     SELECT 
         s.id,
