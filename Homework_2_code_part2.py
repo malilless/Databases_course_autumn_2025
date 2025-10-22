@@ -1,3 +1,4 @@
+-- THIS CODE WAS CREATED BY CHATGPT 
 import mysql.connector
 from mysql.connector import Error
 import numpy as np
@@ -60,3 +61,4 @@ if __name__ == "__main__":
         insert_progress(conn)
         conn.close()
         print("✅ Progress table populated")
+
