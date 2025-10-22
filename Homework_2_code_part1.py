@@ -1,3 +1,4 @@
+-- THIS CODE WAS CREATED BY CHATGPT 
 import mysql.connector
 from mysql.connector import Error
 import random
@@ -73,3 +74,4 @@ if __name__ == "__main__":
         insert_students(conn)
         conn.close()
         print("✅ Students table populated")
+
