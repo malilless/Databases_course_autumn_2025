@@ -4,6 +4,8 @@ USE HW2;
 -- THIS QUERY WAS CREATED BY CHATGPT
 -- ==============================================
 
+-- EXPLAIN
+-- EXPLAIN ANALYZE
 SELECT *
 FROM (
     -- ---------------------------------------------------
