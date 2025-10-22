@@ -1,3 +1,4 @@
+-- THIS CODE WAS CREATED BY CHATGPT 
 import mysql.connector
 from mysql.connector import Error
 import random
@@ -47,3 +48,4 @@ if __name__ == "__main__":
         insert_medalists(conn)
         conn.close()
         print("✅ School_medalists table populated")
+
