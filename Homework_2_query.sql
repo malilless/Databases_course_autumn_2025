@@ -1,4 +1,6 @@
 USE HW2;
+
+-- CREATING SECONDARY INDEXES TO OPTIMIZE THE QUERY
 CREATE INDEX idx_students_id ON students(id);
 CREATE INDEX idx_progress_gpa ON progress(GPA);
 CREATE INDEX idx_progress_best_completed_course ON progress(best_completed_course);
