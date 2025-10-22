@@ -10,7 +10,6 @@ uni VARCHAR(50),
 specialty VARCHAR(50)
 );
 
-
 DROP TABLE IF EXISTS progress;
 CREATE TABLE progress (
 id INT PRIMARY KEY,
