@@ -1,8 +1,7 @@
 USE HW2;
 
 -- ==============================================
--- Slightly optimized but still heavy query (fixed)
--- Uses derived tables; columns referenced correctly
+-- THIS QUERY WAS CREATED BY CHATGPT
 -- ==============================================
 
 SELECT *
