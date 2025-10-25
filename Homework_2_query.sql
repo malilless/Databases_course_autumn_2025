@@ -54,7 +54,7 @@ SELECT
     u.avg_gpa,
     fp.fakes_per_uni_count
 FROM full_table f
-LEFT JOIN uni_avg_gpa u ON f.uni = u.uni
+LEFT JOIN uni_avg_gpa u ON USE INDEX (idx_students_uni) f.uni = u.uni
 LEFT JOIN fakes_per_uni fp ON f.uni = fp.uni
 WHERE f.best_completed_course = 'Ukrainian History'
 ORDER BY f.GPA DESC
